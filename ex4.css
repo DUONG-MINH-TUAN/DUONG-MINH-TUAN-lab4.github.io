@@ -1,0 +1,25 @@
+
+.bg-secondary {
+    background-color: #d2dbe4 !important;
+}
+ul {
+    list-style-type: none;
+    padding-left: 10px; 
+  }
+  
+ul li::before {
+    content: "\2015"; 
+    font-size: 7px;
+    position: relative;
+    right: 7px;
+}
+
+  .rounded {
+    border-radius: 2.5rem !important;
+}
+
+@media (min-width: 992px) {
+    h5.text-lg-start {
+      text-align: left !important; 
+    }
+  }
